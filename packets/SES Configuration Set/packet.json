@@ -1,16 +1,17 @@
 {
   "version": "1.0",
+  "id": "28b23f1b-824f-4ac2-a30c-767b849b208e",
   "label": "SES Configuration Set - %configuration_set_name%",
   "type": "AWS-SES-CONFIGURATION-SET",
   "autoExpand": true,
   "skipEveryInstanceFiles": false,
   "limitToAllowedChildren": false,
   "autoGenerate": false,
-  "inheritFilesFromPacketGuid": "github.com\\infraxys-modules\\terraform\\master\\terraform helper",
   "key": "",
   "infoHtml": "\u003ch1\u003eAWS SES Configuration Set\u003c/h1\u003e\n\u003cp\u003eSee \u003ca href\u003d\"https://www.terraform.io/docs/providers/aws/r/ses_configuration_set.html\" target\u003d\"_blank\"\u003eTerraform aws_ses_configuration_set\u003c/a\u003e\u003c/p\u003e",
   "attributes": [
     {
+      "id": "5ef485c7-e0ac-40ca-a7ed-0bbfa3319758",
       "name": "configuration_set_name",
       "caption": "Name",
       "type": "java.lang.String",
@@ -21,13 +22,13 @@
       "required": true,
       "isPartOfKey": true,
       "listOfValues": "",
+      "cacheMinutes": 0,
       "referenceFilter": "",
       "referenceValueAttributeName": "",
-      "referenceChildGuidFilter": "",
+      "referenceChildIdFilter": "",
       "newItemsAllowed": false,
       "parseWithVelocity": false,
       "cloneAttribute": true,
-      "autoExport": true,
       "inputPrompt": "",
       "tooltip": "",
       "scope": "Instance",
@@ -36,7 +37,7 @@
   ],
   "files": [
     {
-      "guid": "54d54c45-0d5d-44ce-85e6-a6fb9a0cbebf",
+      "id": "54d54c45-0d5d-44ce-85e6-a6fb9a0cbebf",
       "filename": "ses-configuration-set.tf",
       "includeName": "",
       "menuCaption": "ses-configuration-set.tf",
@@ -55,7 +56,9 @@
       "menuSeparatorBefore": false,
       "hideFromInstanceActionsMenu": false,
       "hideFromBottomMenu": false,
-      "menuPath": ""
+      "menuPath": "",
+      "dockerImage": "",
+      "customCommand": ""
     }
   ],
   "allowedChildren": []
